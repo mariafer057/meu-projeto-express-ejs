@@ -1,0 +1,13 @@
+body{
+    background-color: #5ec3eb;
+}
+
+.letras{
+    text-align: center;
+    font-family: 'PacificStandard-Bold','Open Sans',Arial,sans-serif;
+}
+
+.flex-container{
+ display: flex;
+ justify-content: space-evenly;
+}
