@@ -1,10 +1,9 @@
 body{
-    background-color: #5ec3eb;
-}
+    background: linear-gradient(#1E90FF, #87CEFA, #6959CD);}
 
 .letras{
     text-align: center;
-    font-family: 'PacificStandard-Bold','Open Sans',Arial,sans-serif;
+    font-family: Courier, "Lucida Console", monospace;
 }
 
 .flex-container{
