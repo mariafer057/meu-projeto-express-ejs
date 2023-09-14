@@ -1,9 +1,12 @@
 body{
-    background: linear-gradient(#1E90FF, #87CEFA, #6959CD);}
+    background: linear-gradient(#1E90FF, #6959CD);
+color: aliceblue;
+}
 
 .letras{
     text-align: center;
     font-family: Courier, "Lucida Console", monospace;
+    color: aliceblue;
 }
 
 .flex-container{
