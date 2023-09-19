@@ -13,6 +13,14 @@ app.get('/produtos', (req, res) => {
   res.render('produtos', { message: 'Olá, Sejam bem vindos!' });
 });
 
+app.get('/produtos2', (req, res) => {
+  res.render('produtos2', { message: 'Olá, Sejam bem vindos!' });
+});
+
+app.get('/produtos3', (req, res) => {
+  res.render('produtos3', { message: 'Olá, Sejam bem vindos!' });
+});
+
 app.listen(port, () => {
   console.log(`Servidor rodando em http://localhost:${port}`);
 });
