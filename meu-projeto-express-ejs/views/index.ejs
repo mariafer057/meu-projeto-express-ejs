@@ -5,110 +5,23 @@
   <link rel="stylesheet" type="text/css" href="/styles.css">
 </head>
 <body>
-  
-  <% for(let produto of produtos){ %>
-    <h1>mafer</h1>
-    <% } %>
-    
+
 <img>
   <h1 class="letras">Produtos</h1>
   <div class="flex-container">
+  <% for (let produto of produtos){%>
     <a href="/produtos">
-    <img src="/img/evelyn.jpg"/><
-    <p><strong>Os sete maridos de Evelyn Hugo<br>
+    <img src="/img/<%= produto.img %>">
+    <p><strong><%= produto.nome %><br>
       Capa comum </strong></p>
        <p><strong>Precinho: </strong>R$34,90</p>
        <p>por Ali Hazelwood (Autor)</p>
+       <button class="botao">Ver mais</button> 
        </a>
+  <% } %>
   </div>
 
-  <div class="flex-container">
-    <div>
-    <a href="/produtos2">
-    <img src="/img/hipotese.jpg"/></a>
-    <p><strong>A hipótese do amor<br>
-      Capa comum</strong></p>
-      <p><strong>Precinho: </strong>R$37,99</p>
-      <p> por Taylor Jenkins Reid (Autor)</p>
-    </div>
-  </div>
-
-    <div class="flex-container">
-      <div>
-      <a href="/produtos3">
-  <img src="/img/jovens.jpg"/>
-    <p><strong>Os Últimos Jovens da Terra: A Aventura da June<br>
-      Capa comum</strong></p>
-      <p><strong>Precinho: </strong>R$35,99</p>
-      <p> por Max Brallier (Autor)</p>
-  </div>
-</div>
-
-  <div class="flex-container">
-    <div>
-    <a href="/produtos4">
-    <img src="/img/batman.jpg"/></a>
-    <p><strong>Os Últimos Jovens da Terra: A Aventura da June<br>
-      Capa comum</strong></p>
-      <p><strong>Precinho: </strong>R$35,99</p>
-      <p> por Max Brallier (Autor)</p>
-    </div>
-  </div>
-
-<div class="flex-container">
-  <div>
-    <a href="/produtos">
-    <img src="/img/evelyn.jpg"/><
-    <p><strong>Os sete maridos de Evelyn Hugo<br>
-      Capa comum </strong></p>
-       <p><strong>Precinho: </strong>R$34,90</p>
-       <p>por Ali Hazelwood (Autor)</p>
-       </a>
-  </div>
-</div>
-
-  <div class="flex-container">
-    <div>
-    <a href="/produtos2">
-    <img src="/img/hipotese.jpg"/></a>
-    <p><strong>A hipótese do amor<br>
-      Capa comum</strong></p>
-      <p><strong>Precinho: </strong>R$37,99</p>
-      <p> por Taylor Jenkins Reid (Autor)</p>
-    </div>
-  </div>
-
-    <div class="flex-container">
-      <div>
-      <a href="/produtos3">
-  <img src="/img/jovens.jpg"/>
-    <p><strong>Os Últimos Jovens da Terra: A Aventura da June<br>
-      Capa comum</strong></p>
-      <p><strong>Precinho: </strong>R$35,99</p>
-      <p> por Max Brallier (Autor)</p>
-  </div>
-    </div>
-
-  <div class="flex-container">
-    <div>
-    <a href="/produtos4">
-    <img src="/img/batman.jpg"/></a>
-    <p><strong>Os Últimos Jovens da Terra: A Aventura da June<br>
-      Capa comum</strong></p>
-      <p><strong>Precinho: </strong>R$35,99</p>
-      <p> por Max Brallier (Autor)</p>
-    </div>
-  </div>
-  <div class="flex-container">
-    <div>
-    <a href="/produtos4">
-    <img src="/img/batman.jpg"/></a>
-    <p><strong>Os Últimos Jovens da Terra: A Aventura da June<br>
-      Capa comum</strong></p>
-      <p><strong>Precinho: </strong>R$35,99</p>
-      <p> por Max Brallier (Autor)</p>
-    </div>
-  </div>
+ 
 </div>
 </body>
 </html>

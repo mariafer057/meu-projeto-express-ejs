@@ -13,15 +13,6 @@ color: aliceblue;
 
 .flex-container{
  display: flex;
- margin: 30px;
- padding: 5px;
- background-color: rgb(255, 255, 255);   
- border: 3px solid #f5f5f522;
- display: inline-block;
- overflow: hidden;
- height: 650px;
- width: 450px;
- font-size: 22px;   
  justify-content: space-around;
 }   
 
@@ -30,3 +21,7 @@ a{
     color: rgb(42, 84, 120);
    }
    
+.botao{
+    color: rgb(221, 221, 221);
+    background-color: rgb(167, 42, 96);
+}
