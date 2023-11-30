@@ -5,19 +5,15 @@
   <link rel="stylesheet" type="text/css" href="/styles.css">
 </head>
 <img>
-  <h1><%= message %></h1>
-  <h1 class="letras">Produtos</h1>
-  <div class="flex-container">
-  <div>
-    <a href="/">
-    <img src="/img/evelin.jpg"/>
-    <p><strong>Os sete maridos de Evelyn Hugo<br>
+
+  
+    <img src="/img/<%= produto.img %>" >
+    <p><strong><%= produto.nome %><br>
       Capa comum </strong></p>
        <p><strong>Precinho: </strong>R$34,90</p>
        <p>por Ali Hazelwood (Autor)</p>
+       <button class="botao">Ver mais</button> 
        </a>
-  </div>
-</div>
-
+  
 </body>
 </html>

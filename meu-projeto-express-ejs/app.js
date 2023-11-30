@@ -27,21 +27,11 @@ app.get('/', (req, res) => {
   res.render('index', {produtos});
 });
 
-app.get('/produtos', (req, res) => {
-  res.render('produtos', { message: 'Olá, Sejam bem vindos!' });
+app.get('/produtos/:id', (req, res)   => {
+  const produto = buscarProdutoPorID(req.params.id)
+  res.render('produtos', {produto} ) ;
 });
 
-app.get('/produtos2', (req, res) => {
-  res.render('produtos2', { message: 'Olá, Sejam bem vindos!' });
-});
-
-app.get('/produtos3', (req, res) => {
-  res.render('produtos3', { message: 'Olá, Sejam bem vindos!' });
-});
-
-app.get('/produtos4', (req, res) => {
-  res.render('produtos4', { message: 'Olá, Sejam bem vindos!' });
-});
 
 app.listen(port, () => {
   console.log(`Servidor rodando em http://localhost:${port}`);

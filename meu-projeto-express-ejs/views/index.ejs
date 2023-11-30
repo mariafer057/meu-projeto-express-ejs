@@ -7,19 +7,20 @@
 <body>
 
 <img>
-  <h1 class="letras">Produtos</h1>
-  <div class="flex-container">
-  <% for (let produto of produtos){%>
-    <a href="/produtos">
-    <img src="/img/<%= produto.img %>">
+<h1 class="letras">Produtos</h1>
+<% for(let produto of produtos){ %>
+  <div class="card-principal">
+    <a href="/produtos/<%= produto.id%>">
+    <img src="/img/<%= produto.img %>" class="img"><img>
     <p><strong><%= produto.nome %><br>
       Capa comum </strong></p>
        <p><strong>Precinho: </strong>R$34,90</p>
        <p>por Ali Hazelwood (Autor)</p>
-       <button class="botao">Ver mais</button> 
+       <button class="botao" href="/produtos/<%= produto.id%>">Ver mais</button> 
        </a>
-  <% } %>
   </div>
+
+  <% } %>
 
  
 </div>
