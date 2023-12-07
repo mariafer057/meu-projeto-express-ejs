@@ -16,20 +16,21 @@ color: aliceblue;
         margin: 30px;
         padding: 5px;
         background-color: rgb(240, 241, 246);
-        border: 3px solid #f5f5f522;
         display: inline-block;
         overflow: hidden;
         height: 530px;
         width: 300px;
+        border: 1px solid #a0a0a0;
+        border-radius: 8px;
         font-size: 22px;
         filter: drop-shadow(0px 2px 2px  #726765e9);
       
 }   
 
 .img{
-    margin-left: 75px;
-    width: 150px;
-    height: 250px;
+    margin-left: 45px;
+    width: 220px;
+    height: 350px;
 }
 
 a{
@@ -40,4 +41,20 @@ a{
 .botao{
     color: rgb(221, 221, 221);
     background-color: rgb(167, 42, 96);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.container-princ{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
 }

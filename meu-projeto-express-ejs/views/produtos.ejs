@@ -6,14 +6,15 @@
 </head>
 <img>
 
-  
+  <div className="container-princ">
     <img src="/img/<%= produto.img %>" >
+
     <p><strong><%= produto.nome %><br>
       Capa comum </strong></p>
-       <p><strong>Precinho: </strong>R$34,90</p>
-       <p>por Ali Hazelwood (Autor)</p>
+       <p><strong>Precinho: </strong><%= produto.preco %></p>
+       <p><strong>Descrição: </strong><%= produto.descricao %></p>
        <button class="botao">Ver mais</button> 
        </a>
-  
-</body>
+  </div>
+    </body>
 </html>
